@@ -2,6 +2,8 @@
 
 This repository contains the configuration files required to get a PostGIS database of the Dutch cadaster (`BAG`) up and running on a vagrant box. Once ready, you can access it from the host machine through [QGIS](http://qgis.org).
 
+![bag_box](bag_box.png)
+
 ## Usage
 
 * Make sure you have installed a recent version of
