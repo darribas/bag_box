@@ -28,6 +28,11 @@ This repository contains the configuration files required to get a PostGIS datab
 * If you want to get rid of the VM, run `vagrant destroy` and things will
   dissapear as if they'd never happened. That easy.
 
+**NOTE**: I've had problems pulling down the dump file (1.8GB via `wget`). If
+you experience any issue while building the vagrant box, downloaded separately
+and put it on the project folder with the name `dump.backup`. Then run
+`vagrant destroy -f` to remove the box with the error, and re-build it with
+`vagrant up`.
 
 ## License & Credits
 
