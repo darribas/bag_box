@@ -31,8 +31,8 @@ This repository contains the configuration files required to get a PostGIS datab
   dissapear as if they'd never happened. That easy.
 
 **NOTE**: I've had problems pulling down the dump file (1.8GB via `wget`). If
-you experience any issue while building the vagrant box, downloaded separately
-and put it on the project folder with the name `dump.backup`. Then run
+you experience any issue while building the vagrant box, download it separately
+([link](http://data.nlextract.nl/bag/postgis/bag-2015_01_07.backup)) and put it on the project folder with the name `dump.backup`. Then run
 `vagrant destroy -f` to remove the box with the error, and re-build it with
 `vagrant up`.
 
