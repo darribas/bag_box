@@ -39,7 +39,8 @@ echo "VM provisioned. Starting the download of the DB dump..."
 cd /vagrant
 if [ ! -f dump.backup ]; then
     #wget http://data.nlextract.nl/bag/postgis/bag-amstelveen.backup -O dump.backup
-    wget http://data.nlextract.nl/bag/postgis/bag-2015_01_07.backup -O dump.backup
+    # wget http://data.nlextract.nl/bag/postgis/bag-2015_01_07.backup -O dump.backup
+    wget http://data.nlextract.nl/bag/postgis/bag-2015_04_23.backup -O dumb.backup
 fi
 echo "DB Downloaded. Starting restoration..."
 # Restore DB
